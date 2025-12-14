@@ -7,12 +7,12 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
         style={{ 
-          // High-quality Pakistani/South Asian Bridal Image (Red Lehenga)
-          backgroundImage: 'url(https://images.unsplash.com/photo-1625487738734-6330456184a5?q=80&w=2070&auto=format&fit=crop)' 
+          // Traditional Pakistani Bridal Image (Red Lehenga & Jewelry)
+          backgroundImage: 'url(https://images.unsplash.com/photo-1595959183082-7bce70752538?q=80&w=2070&auto=format&fit=crop)' 
         }}
       >
-        {/* Neutral dark overlay to ensure text readability without heavy color tint */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        {/* Dark overlay to ensure text readability */}
+        <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
       {/* Content */}
